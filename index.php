@@ -1,3 +1,9 @@
+<?php
+
+include_once("app/database/connect.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +23,9 @@
 
     <!-- スレッドエリア -->
     <?php include("app/parts/thread.php"); ?>
+
+    <!-- スレッドエリア -->
+    <?php include("app/parts/newThreadButton.php"); ?>
 
 </body>
 
